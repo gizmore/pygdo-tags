@@ -5,7 +5,7 @@ from gdo.core.GDT_AutoInc import GDT_AutoInc
 from gdo.core.GDT_Name import GDT_Name
 
 
-class GDO_Tags(GDO):
+class GDO_TagsTable(GDO):
 
     def gdo_tagged_object_table(self) -> GDO:
         raise GDOError("gdo_tagged_object_table: Not implemented for "+self.fqcn())
