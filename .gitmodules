@@ -1,0 +1,3 @@
+[submodule "tagify"]
+	path = tagify
+	url = https://github.com/yairEO/tagify

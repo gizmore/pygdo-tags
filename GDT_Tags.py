@@ -1,4 +1,3 @@
-from gdo.base.GDT import GDT
 from gdo.core import GDT_String
 
 
