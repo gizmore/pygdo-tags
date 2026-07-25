@@ -1,4 +1,4 @@
-from gdo.core import MethodCompletion
+from gdo.core.MethodCompletion import MethodCompletion
 
 
 class complete_tags(MethodCompletion):
