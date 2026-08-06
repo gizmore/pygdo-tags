@@ -19,5 +19,5 @@ class GDO_TagObject(GDO):
             GDT_Object('tag_id').table(self.gdo_tags_table()),
             GDT_Object('obj_id').table(self.gdo_tag_object_table()),
             GDT_Created('tag_created'),
-            GDT_Creator('tag_created'),
+            GDT_Creator('tag_creator'),
         ]

@@ -1,4 +1,4 @@
-window.gdo |= {};
+window.gdo ||= {};
 
 window.gdo.tags = {
     init: function() {
