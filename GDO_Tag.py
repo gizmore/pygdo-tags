@@ -15,7 +15,7 @@ class GDO_Tag(GDO):
     def gdo_columns(self) -> list[GDT]:
         return [
             GDT_AutoInc('tag_id'),
-            GDT_Name('tag_name'),
+            GDT_Name('tag_name').not_null().unique(),
             GDT_Created('tag_created'),
             GDT_Creator('tag_creator'),
         ]
