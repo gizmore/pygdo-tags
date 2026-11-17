@@ -20,6 +20,9 @@ is provided by itself.
 `GDT_Tags` accepts comma-separated names. `.allow_creation()` opts into
 creating unknown names; creation is off by default.
 
+`GDT_TagCloud` renders reusable weighted links from `(id, name, count)` rows;
+the caller supplies link generation and the selected tag.
+
 ## GDOs
 
 `GDO_Tag` stores a name and `GDO_TagObject` associates a tag with an object.
